@@ -27,9 +27,9 @@ added 89 packages in 2.48s
 * Add Schema .sql's from the Repo 
 
 ## Run a script corresponding to the type of data you want to pull down
-* Example:
+* Example (loot):
 <pre>
-node magelo_scrape.js
+node magelo_loot_scrape.js
 Connected!
 Still polling zones
 Still polling zones
