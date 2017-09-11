@@ -37,6 +37,11 @@ setTimeout(function(){
 		if(current_time > (last_poll_action_time + 10)){
 			// console.log("Ready to poll");
 			poll_item(items[index]);
+			
+			if(!items[index]){
+				process.exit(1);
+			}
+			
 			index++;
 		}
 		else { 
