@@ -1,5 +1,6 @@
-# eq-magelo-scrapers
+# Magelo Scrapers
 * magelo.com data mining scripts for EverQuest
+* Loot: 24k web requests at time of writing
 
 # Installation
 
