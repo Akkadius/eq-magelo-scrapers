@@ -1,6 +1,6 @@
 # Magelo Scrapers
 * magelo.com data mining scripts for EverQuest
-* Loot: 24k web requests at time of writing
+* Loot: 24k web requests at time of writing (Please be considerate to Magelo folks)
 
 # Installation
 
