@@ -1,0 +1,26 @@
+version: '2.4'
+
+networks:
+  backend:
+    driver: ${NETWORKS_DRIVER}
+
+services:
+
+  # local database for quick testing
+
+  mariadb:
+    restart: unless-stopped
+    image: mariadb:latest
+    ports:
+      - 33066:3306
+    volumes:
+      - ./data/mariadb:/var/lib/mysql:delegated
+    environment:
+      - MYSQL_DATABASE=eqemu
+      - MYSQL_USER=eqemu
+      - MYSQL_PASSWORD=eqemu
+      - MYSQL_ROOT_PASSWORD=eqemu
+      - MYSQL_ALLOW_EMPTY_PASSWORD=NO
+      - TZ=${TZ:-US/Central}
+    networks:
+      - backend

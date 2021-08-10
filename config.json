@@ -1,5 +1,5 @@
 {
 	"mysql_user": "root",
 	"mysql_password": "eqemu",
-	"mysql_database": "peq"
+	"mysql_database": "eqemu"
 }
