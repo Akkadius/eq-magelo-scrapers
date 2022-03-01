@@ -7,7 +7,7 @@
     "cheerio": "^1.0.0-rc.2",
     "mysql": "^2.14.1",
     "request": "^2.81.0",
-    "requestretry": "^1.12.2",
+    "requestretry": "^7.0.0",
     "require": "^2.4.20"
   },
   "devDependencies": {},
